@@ -30,7 +30,7 @@ const createSiteMenuTemplate = () =>
     <label for="control__statistic" class="control__label"
       >STATISTICS</label
     >
-  </section>`
+  </section>`;
 
 const createFilterTemplate = () =>
   `<section class="main__filter filter container">
@@ -100,7 +100,7 @@ const createFilterTemplate = () =>
     <label for="filter__archive" class="filter__label"
       >Archive <span class="filter__archive-count">115</span></label
     >
-  </section>`
+  </section>`;
 
 const createBoardTemplate = () =>
   `<section class="board container">
@@ -110,7 +110,7 @@ const createBoardTemplate = () =>
       <a href="#" class="board__filter">SORT BY DATE down</a>
     </div>
     <div class="board__tasks"></div>
-  </section>`
+  </section>`;
 
 const createTaskTemplate = () =>
   `<article class="card card--black">
@@ -171,7 +171,7 @@ const createTaskTemplate = () =>
         </div>
       </div>
     </div>
-  </article>`
+  </article>`;
 
 const createTaskEditTemplate = () =>
   `<article class="card card--edit card--yellow card--repeat">
@@ -417,10 +417,10 @@ const createTaskEditTemplate = () =>
         </div>
       </div>
     </form>
-  </article>`
+  </article>`;
 
 const createLoadMoreButtonTemplate = () =>
-  `<button class="load-more" type="button">load more</button>`
+  `<button class="load-more" type="button">load more</button>`;
 
 const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
